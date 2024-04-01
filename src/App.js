@@ -11,15 +11,15 @@ function App() {
   return (
     <div className="container">
       <div className="box">
-        <img src={image1} alt="" />
+        <img src={image1} alt="" className="img" />
       </div>
 
       <div className="box">
-        <img src={image2} alt="" />
+        <img src={image2} alt="" className="img" />
       </div>
 
       <div className="box">
-        <img src={image3} alt="" />
+        <img src={image3} alt="" className="img" />
       </div>
 
     </div>
